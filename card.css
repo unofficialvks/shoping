@@ -1,0 +1,94 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin:0;
+
+}
+
+body{
+  height:100%;  
+  width:100%;
+}
+
+.container{
+    width:100%;
+    height:100%;
+    margin:auto;
+    text-align: center;
+    padding-top: 10px;
+   
+}
+
+
+svg{
+    width:30px;
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px 0;        
+}
+
+header .icon-cart{
+    position:relative;
+}
+
+header .icon-cart span{
+    display: flex;
+    width: 30px;
+   height:30px;
+   background-color:red;
+   justify-content: center;
+   align-items: center;
+   color: white;
+   border-radius: 50%;
+   position:absolute;
+   top:50%;
+   right:-20px;
+}
+
+
+
+.listProduct{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+.listProduct button{
+    background-color:#353432 ;
+    color:white;
+    border-radius: 20px;
+    padding:5px 10px;
+    margin-top: 10px;
+    border: none;
+    cursor:pointer;
+
+}
+
+.listProduct .item{
+    background-color: #eeeee6;
+    padding:20px;
+    border-radius: 20px;
+}
+
+.listProduct .item h2{
+    font-weight:500;
+    font-size:large;
+}
+
+.listProduct .item .price{
+    letter-spacing: 7px;
+    font-size:small;
+}
+
+.cartTab{
+    width:400px;
+    background-color: #353432;
+    color: white;
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+}
