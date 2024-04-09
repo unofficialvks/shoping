@@ -41,7 +41,7 @@ let arrayData = Object.entries(finalres);
 console.log(arrayData)
 
 
- // Check if arrayData is an array
+ // Check if arrayData is an arrayhjhj
 console.log(Array.isArray(arrayData));
 
 
